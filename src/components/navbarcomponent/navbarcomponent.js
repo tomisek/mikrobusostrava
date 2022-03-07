@@ -1,18 +1,19 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css'
-import { Nav, Navbar } from 'react-bootstrap'
+import { Container, Nav, Navbar } from 'react-bootstrap'
 import './navbarcomponent.css'
 
 export const NavbarComponent = () => {
     return (
-        
-            <Navbar bg='myRed' variant='light' fixed='top' expand='sm'>
+
+        <Navbar bg='myRed' variant='light' fixed='top' expand='sm'>
+            <Container>
                 <Navbar.Brand >
                     <Nav.Item>
-                    <Nav.Link  href='/mikrobusostrava'>
-                    Mikrobus a Minibus Ostrava
-                    </Nav.Link>
-                    </Nav.Item>       
+                        <Nav.Link href='/mikrobusostrava'>
+                            Mikrobus a Minibus Ostrava
+                        </Nav.Link>
+                    </Nav.Item>
                 </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse>
@@ -28,9 +29,8 @@ export const NavbarComponent = () => {
                         </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
-
-            </Navbar>
-
+            </Container>
+        </Navbar>
     )
 }
 

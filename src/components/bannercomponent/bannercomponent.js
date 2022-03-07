@@ -7,7 +7,7 @@ import Hyundai from '../../shared/images/08.jpg'
 import { Carousel } from 'react-bootstrap'
 export const BannerComponent = () => {
     return (
-            <Carousel className='container'>
+            <Carousel className='container' id='nopadd'>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
