@@ -1,10 +1,30 @@
+import { NavbarComponent } from './components/navbarcomponent/navbarcomponent.js'
+import { BannerComponent } from './components/bannercomponent/bannercomponent.js'
+import { LightboxComponent } from './components/lightboxcomponent/lightboxcomponent.js';
+import { ContactComponent } from './components/contactcomponent/contactcomponent.js';
+import { ContentComponent } from './components/contentcomponent/contentcomponent.js';
 function App() {
   return (
-    <>
-      <h1>
-        Mikrobus a Minibus Ostrava
-      </h1>
-    </>
+    <div>
+      <NavbarComponent>
+
+      </NavbarComponent>
+      
+      <BannerComponent>
+
+      </BannerComponent>
+      
+      <ContentComponent>
+        
+      </ContentComponent>
+      <LightboxComponent >
+
+      </LightboxComponent>
+      <ContactComponent>
+
+      </ContactComponent>
+    </div>
+
   );
 }
 

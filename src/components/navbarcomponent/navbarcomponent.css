@@ -1,0 +1,11 @@
+.bg-myRed{
+    background-color: rgb(233, 238, 232);
+    
+}
+
+Nav{
+    padding-right: 130px;
+}
+Nav.Item{
+    color: black;
+}
