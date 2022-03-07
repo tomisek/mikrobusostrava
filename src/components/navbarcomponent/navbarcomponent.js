@@ -9,7 +9,7 @@ export const NavbarComponent = () => {
             <Navbar bg='myRed' variant='light' fixed='top' expand='sm'>
                 <Navbar.Brand >
                     <Nav.Item>
-                    <Nav.Link  href='/#'>
+                    <Nav.Link  href='/mikrobusostrava'>
                     Mikrobus a Minibus Ostrava
                     </Nav.Link>
                     </Nav.Item>       
