@@ -1,11 +1,6 @@
 img{
       width: 100%;
   }
-/* @media (min-width: 979px) {
-  body {
-      padding-top:64px;
-  }
-} */
-.carou{
+.container{
   padding-top: 64px;
 }
