@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/mikrobusostrava/static/css/main.8c41610e.css",
-    "main.js": "/mikrobusostrava/static/js/main.3656faae.js",
+    "main.css": "/mikrobusostrava/static/css/main.3c7c4676.css",
+    "main.js": "/mikrobusostrava/static/js/main.b7c3a0a5.js",
     "static/js/787.daf06567.chunk.js": "/mikrobusostrava/static/js/787.daf06567.chunk.js",
     "static/media/vito.jpg": "/mikrobusostrava/static/media/vito.f2a2d7d40fa27043fb58.jpg",
     "static/media/08.jpg": "/mikrobusostrava/static/media/08.f81b168ade2b89f57615.jpg",
     "static/media/04.jpg": "/mikrobusostrava/static/media/04.2e186d86493d235bb7ba.jpg",
     "index.html": "/mikrobusostrava/index.html",
-    "main.8c41610e.css.map": "/mikrobusostrava/static/css/main.8c41610e.css.map",
-    "main.3656faae.js.map": "/mikrobusostrava/static/js/main.3656faae.js.map",
+    "main.3c7c4676.css.map": "/mikrobusostrava/static/css/main.3c7c4676.css.map",
+    "main.b7c3a0a5.js.map": "/mikrobusostrava/static/js/main.b7c3a0a5.js.map",
     "787.daf06567.chunk.js.map": "/mikrobusostrava/static/js/787.daf06567.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c41610e.css",
-    "static/js/main.3656faae.js"
+    "static/css/main.3c7c4676.css",
+    "static/js/main.b7c3a0a5.js"
   ]
 }
