@@ -6,7 +6,7 @@ import './navbarcomponent.css'
 export const NavbarComponent = () => {
     return (
 
-        <Navbar bg='myRed' variant='light' fixed='top' expand='sm'>
+        <Navbar bg='myRed' variant='light' fixed='top' expand='sm' collapseOnSelect>
             <Container>
                 <Navbar.Brand >
                     <Nav.Item>
