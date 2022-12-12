@@ -11,7 +11,7 @@ export const NavbarComponent = () => {
                 <Navbar.Brand >
                     <Nav.Item>
                         <Nav.Link href='/mikrobusostrava'>
-                            Mikrobus a Minibus Ostrava
+                            Kurýrní služby Ostrava
                         </Nav.Link>
                     </Nav.Item>
                 </Navbar.Brand>

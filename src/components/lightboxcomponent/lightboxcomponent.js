@@ -13,9 +13,7 @@ export const LightboxComponent = () => {
             <div className='container-md light' id='fotogalerie'>
             <h1>Fotogalerie</h1>
                 <div className='row'>
-                    <div className='col-sm'>
-                        <img src={Bus} alt='bus' />
-                    </div>
+                    
                     <div className='col-sm'>
                         <img src={Vito} alt='vito' />
                     </div>
@@ -24,9 +22,7 @@ export const LightboxComponent = () => {
                     </div>
                 </div>
                 <div className='row hope' >
-                    <div className='col-sm'>
-                        <img src={Bus} alt='bus' />
-                    </div>
+                    
                     <div className='col-sm'>
                         <img src={Vito} alt='vito' />
                     </div>
@@ -35,9 +31,7 @@ export const LightboxComponent = () => {
                     </div>
                 </div>
                 <div className='row hope' >
-                    <div className='col-sm'>
-                        <img src={Bus} alt='bus' />
-                    </div>
+                    
                     <div className='col-sm'>
                         <img src={Vito} alt='vito' />
                     </div>
