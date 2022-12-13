@@ -10,7 +10,7 @@ export const NavbarComponent = () => {
             <Container>
                 <Navbar.Brand >
                     <Nav.Item>
-                        <Nav.Link href='/mikrobusostrava'>
+                        <Nav.Link href='/'>
                             Kurýrní služby Ostrava
                         </Nav.Link>
                     </Nav.Item>
