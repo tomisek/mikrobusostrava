@@ -1,2 +1,2 @@
 # courier services in ostrava
-https://kuryrnisluzbyostrava.cz/
+Individual project https://kuryrnisluzbyostrava.cz/
