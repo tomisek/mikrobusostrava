@@ -1,6 +1,5 @@
 import React from 'react'
 import { SRLWrapper } from 'simple-react-lightbox'
-import Bus from '../../shared/images/04.jpg'
 import Vito from '../../shared/images/vito.jpg'
 import Hyundai from '../../shared/images/08.jpg'
 import './lightboxcomponent.css'
