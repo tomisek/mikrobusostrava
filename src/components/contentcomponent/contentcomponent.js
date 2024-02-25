@@ -7,11 +7,11 @@ export const ContentComponent = () => {
         <div id="content" className="offer">
             <h1>Nabízíme</h1>
             <p>
-                Hledáte kvalitního autodopravce – <b>kurýra</b> na Severní Moravě? 
+                Hledáte kvalitního  <b>autodopravce</b> na Severní Moravě? 
             </p>
             <p>
-                Jaroslav Černý nabízí <b>kurýrní službu</b> mikrobusem Mercedes VITO, rok 
-                výroby 2013,    rovněž přepravíme až  8 osob.
+                Jaroslav Černý nabízí <b>přepravu osob</b> mikrobusem Mercedes VITO, rok 
+                výroby 2013, rovněž přepravíme až  8 osob.
 
             </p>
             <p>

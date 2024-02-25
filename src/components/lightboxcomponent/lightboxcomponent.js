@@ -1,7 +1,7 @@
 import React from 'react'
 import { SRLWrapper } from 'simple-react-lightbox'
 import Vito from '../../shared/images/vito.jpg'
-import Hyundai from '../../shared/images/08.jpg'
+import Hyundai from '../../shared/images/ostrava-view-bus.jpg'
 import './lightboxcomponent.css'
 
 export const LightboxComponent = () => {
