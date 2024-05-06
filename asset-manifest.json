@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e006d6b.css",
-    "main.js": "/static/js/main.7fe0e96b.js",
+    "main.css": "/static/css/main.8cd49620.css",
+    "main.js": "/static/js/main.6498f481.js",
     "static/js/787.daf06567.chunk.js": "/static/js/787.daf06567.chunk.js",
     "static/media/vito.jpg": "/static/media/vito.f2a2d7d40fa27043fb58.jpg",
-    "static/media/08.jpg": "/static/media/08.f81b168ade2b89f57615.jpg",
-    "static/media/04.jpg": "/static/media/04.2e186d86493d235bb7ba.jpg",
+    "static/media/ostrava-view-bus.jpg": "/static/media/ostrava-view-bus.df51b99baaf718bb8992.jpg",
+    "static/media/side.jpg": "/static/media/side.c4a96d8a6858f9554e48.jpg",
+    "static/media/backside.jpeg": "/static/media/backside.ef2bd315bcea5a4524a6.jpeg",
     "index.html": "/index.html",
-    "main.0e006d6b.css.map": "/static/css/main.0e006d6b.css.map",
-    "main.7fe0e96b.js.map": "/static/js/main.7fe0e96b.js.map",
+    "main.8cd49620.css.map": "/static/css/main.8cd49620.css.map",
+    "main.6498f481.js.map": "/static/js/main.6498f481.js.map",
     "787.daf06567.chunk.js.map": "/static/js/787.daf06567.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e006d6b.css",
-    "static/js/main.7fe0e96b.js"
+    "static/css/main.8cd49620.css",
+    "static/js/main.6498f481.js"
   ]
 }
