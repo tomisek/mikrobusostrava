@@ -2,6 +2,8 @@ import React from 'react'
 import { SRLWrapper } from 'simple-react-lightbox'
 import Vito from '../../shared/images/vito.jpg'
 import Hyundai from '../../shared/images/ostrava-view-bus.jpg'
+import Side from '../../shared/images/side.jpg'
+import Backside from '../../shared/images/backside.jpeg'
 import './lightboxcomponent.css'
 
 export const LightboxComponent = () => {
@@ -17,25 +19,16 @@ export const LightboxComponent = () => {
                         <img src={Vito} alt='vito' />
                     </div>
                     <div className='col-sm'>
-                        <img src={Hyundai} alt='hyundai' />
+                        <img src={Backside} alt='kufr' />
                     </div>
                 </div>
                 <div className='row hope' >
                     
                     <div className='col-sm'>
-                        <img src={Vito} alt='vito' />
+                        <img src={Side} alt='interiér' />
                     </div>
                     <div className='col-sm'>
-                        <img src={Hyundai} alt='hyundai' />
-                    </div>
-                </div>
-                <div className='row hope' >
-                    
-                    <div className='col-sm'>
-                        <img src={Vito} alt='vito' />
-                    </div>
-                    <div className='col-sm'>
-                        <img src={Hyundai} alt='hyundai' />
+                        <img src={Hyundai} alt='vito' />
                     </div>
                 </div>
             </div>
