@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import './bannercomponent.css'
 import Vito from '../../shared/images/ostrava-view-bus.jpg'
 import Hyundai from '../../shared/images/vito.jpg'
+import Mercedes from '../../shared/images/mikrobus_black.jpg'
 import { Carousel } from 'react-bootstrap'
 export const BannerComponent = () => {
     return (
@@ -20,6 +21,16 @@ export const BannerComponent = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
+                        src={Mercedes}
+                        alt="Mercedes"
+                    />
+                    <Carousel.Caption>
+                        <h3>Mercedes třída V</h3>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
                         src={Hyundai}
                         alt="Hyundai"
                     />
@@ -27,6 +38,7 @@ export const BannerComponent = () => {
                         <h3>Mikrobus Mercedes Vito</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
+                
             </Carousel>
     )
 }

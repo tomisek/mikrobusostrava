@@ -4,6 +4,7 @@ import Vito from '../../shared/images/vito.jpg'
 import Hyundai from '../../shared/images/ostrava-view-bus.jpg'
 import Side from '../../shared/images/side.jpg'
 import Backside from '../../shared/images/backside.jpeg'
+import Mercedes from '../../shared/images/mikrobus_black.jpg'
 import './lightboxcomponent.css'
 
 export const LightboxComponent = () => {
@@ -29,6 +30,11 @@ export const LightboxComponent = () => {
                     </div>
                     <div className='col-sm'>
                         <img src={Hyundai} alt='vito' />
+                    </div>
+                </div>
+                <div className='row hope' >
+                    <div className='col-sm'>
+                        <img src={Mercedes} alt='mercedes třída V' />
                     </div>
                 </div>
             </div>
