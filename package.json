@@ -4,6 +4,7 @@
   "homepage": "https://mikrobus-minibusostrava.cz",
   "private": true,
   "dependencies": {
+    "@react-google-maps/api": "^2.20.5",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",

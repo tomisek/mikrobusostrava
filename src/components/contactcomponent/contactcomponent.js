@@ -17,17 +17,16 @@ export const ContactComponent = () => {
       <p>Větrov 464/22</p>
       <p>725 29 Ostrava - Petřkovice</p>
       <p>IČ:10630597 DIČ: CZ5402192664</p>
-      <Map center={{ lat: 49.863377018220554, lng: 18.243133723691304 }}>
-        <MouseControl zoom={true} />
-        <MarkerLayer>
-          <Marker
-            coords={{ lat: 49.863377018220554, lng: 18.243133723691304 }}
-          />
-          <Marker
-            coords={{ lat: 49.863377018220554, lng: 18.243133723691304 }}
-          />
-        </MarkerLayer>
-      </Map>
+      <iframe
+        width="100%"
+        height="400"
+        frameBorder="0"
+        scrolling="no"
+        marginHeight="0"
+        marginWidth="0"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=18.238113,49.861377,18.248154,49.865377&layer=mapnik&marker=49.863377018220554,18.243133723691304"
+        style={{ border: '1px solid #ccc', borderRadius: '8px' }}
+      ></iframe>
     </div>
   );
 };
