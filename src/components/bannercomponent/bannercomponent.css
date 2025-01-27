@@ -4,3 +4,98 @@ img{
 #nopadd{
   padding-top: 64px;
 }
+
+.banner-outer {
+    padding: 64px 0 20px;
+}
+
+.banner-container {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.banner-image-wrapper {
+    border-radius: 20px;
+    overflow: hidden;
+    height: 600px; /* Adjust this value to make images bigger/smaller */
+}
+
+.banner-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Style the carousel caption */
+.carousel-caption {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 30px 20px;
+}
+
+.carousel-caption h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Style carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%;
+    opacity: 0.7;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 25px;
+}
+
+/* Style carousel indicators */
+.carousel-indicators {
+    margin-bottom: 1rem;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .banner-image-wrapper {
+    height: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-image-wrapper {
+    height: 400px;
+  }
+
+  .banner-container {
+    border-radius: 15px;
+    margin: 0 10px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner-image-wrapper {
+    height: 300px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.2rem;
+  }
+}

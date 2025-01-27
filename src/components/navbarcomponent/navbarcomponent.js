@@ -1,38 +1,60 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.css'
-import { Container, Nav, Navbar } from 'react-bootstrap'
-import './navbarcomponent.css'
+import React, { useState, useEffect } from 'react';
+import './navbarcomponent.css';
 
 export const NavbarComponent = () => {
-    return (
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-        <Navbar bg='myRed' variant='light' fixed='top' expand='sm' collapseOnSelect>
-            <Container>
-                <Navbar.Brand >
-                    <Nav.Item>
-                        <Nav.Link href='/'>
-                             Mikrobusová přeprava osob Ostrava
-                        </Nav.Link>
-                    </Nav.Item>
-                </Navbar.Brand>
-                <Navbar.Toggle />
-                <Navbar.Collapse>
-                    <Nav className='col justify-content-end'>
-                        <Nav.Item>
-                            <Nav.Link href='#content'>Nabízíme</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link href='#fotogalerie'>Fotogalerie</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link href='#kontakty'>Kontakty</Nav.Link>
-                        </Nav.Item>
-                    </Nav>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
-    )
-}
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 20);
+    };
+
+    handleScroll();
+    
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  // Close menu when clicking outside
+  useEffect(() => {
+    const closeMenu = () => setIsMenuOpen(false);
+    if (isMenuOpen) {
+      document.addEventListener('click', closeMenu);
+    }
+    return () => document.removeEventListener('click', closeMenu);
+  }, [isMenuOpen]);
+
+  const toggleMenu = (e) => {
+    e.stopPropagation(); // Prevent immediate closing
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  return (
+    <header className="header">
+      <nav className={`navbar ${isScrolled ? 'navbar-scrolled' : ''}`}>
+        <div className="navbar-container">
+          <div className="navbar-brand">
+            <a href="/">Mikrobusová přeprava osob Ostrava</a>
+          </div>
+
+          <div className={`navbar-hamburger ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div className={`navbar-links ${isMenuOpen ? 'active' : ''}`} onClick={(e) => e.stopPropagation()}>
+            <a href="#content" className="nav-link" onClick={() => setIsMenuOpen(false)}>Nabízíme</a>
+            <a href="#fotogalerie" className="nav-link" onClick={() => setIsMenuOpen(false)}>Fotogalerie</a>
+            <a href="#kontakty" className="nav-link" onClick={() => setIsMenuOpen(false)}>Kontakty</a>
+            <a href="Tel: 00420777056080" className="nav-button" onClick={() => setIsMenuOpen(false)}>+420 777 056 080</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+  );
+};
 
 
 

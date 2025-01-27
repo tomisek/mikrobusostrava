@@ -1,0 +1,58 @@
+/* Global responsive styles */
+.App {
+  padding-top: 80px; /* Add back padding to prevent content from going under navbar */
+  min-height: 100vh;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Container width adjustments */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Spacing utilities */
+.section {
+  padding: 60px 0;
+}
+
+/* Responsive typography */
+h1 {
+  font-size: clamp(2rem, 4vw, 2.5rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+h3 {
+  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+}
+
+p {
+  font-size: clamp(1rem, 1.5vw, 1.1rem);
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding-top: 70px;
+  }
+
+  .section {
+    padding: 40px 0;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+}
+
+.app-container {
+    min-height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #f5f7fa 0%,
+        #e4e8eb 100%
+    );
+}
