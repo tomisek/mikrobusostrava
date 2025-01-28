@@ -1,3 +1,6 @@
+# courier services in ostrava
+Individual project https://mikrobusovaprepravaosob.netlify.app/
+
 # Mikrobusová přeprava osob Ostrava
 
 Profesionální přepravní služby v Ostravě a okolí.
@@ -13,7 +16,8 @@ Nabízíme spolehlivou a bezpečnou přepravu osob moderními mikrobusy.
 
 ## Kontakt
 📞 +420 777 056 080
-🌐 mikrobus-minibusostrava.cz
 
 ## Lokace
 Ostrava, Česká republika
+
+- to run the project run "npm run start"
