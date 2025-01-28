@@ -13,7 +13,7 @@ Nabízíme spolehlivou a bezpečnou přepravu osob moderními mikrobusy.
 
 ## Kontakt
 📞 +420 777 056 080
-🌐 www.mikrobus-minibusostrava.cz
+🌐 mikrobus-minibusostrava.cz
 
 ## Lokace
 Ostrava, Česká republika
