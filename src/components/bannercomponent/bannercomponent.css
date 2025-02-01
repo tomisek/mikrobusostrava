@@ -16,9 +16,12 @@ img{
 }
 
 .banner-image-wrapper {
+    aspect-ratio: 16/9;  /* This controls image dimensions */
+    width: 100%;
+    height: auto;
+    /* or specific height */
     border-radius: 20px;
     overflow: hidden;
-    height: 600px; /* Adjust this value to make images bigger/smaller */
 }
 
 .banner-image-wrapper img {
